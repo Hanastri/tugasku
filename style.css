@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    padding-left: 10px; 
+}
+
+.profile-photo {
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border-radius: 0;
+
+}
+
+.header-text h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.header-text p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+header hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    font-size: 20px;
+    color: #444;
+    margin-top: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.job p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.job h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.job p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
